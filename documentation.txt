@@ -1,0 +1,154 @@
+BookMyTurf — Friendly Guide (Non‑Technical, No Code)
+
+Welcome
+BookMyTurf is a simple, friendly website that helps people reserve time on a sports turf. It includes a chat assistant that speaks in everyday language and walks you through booking step by step. This document explains what the system does, how it works behind the scenes (in plain words), how to set it up on your computer, and how to get the most out of it. There are no technical instructions or code here—just clear guidance.
+
+What You Can Do
+• Explore a sample turf with name, location, price per hour, size, and amenities.
+• Check which hours are available today and tomorrow.
+• Make a reservation for a date and time that suits you.
+• Review your current bookings in one place.
+• Cancel a booking using its booking ID if your plans change.
+
+Who This Is For
+• People who want a quick and easy way to book a turf without learning any technical tools.
+• Organizers who want a demo they can show to teammates or stakeholders.
+• Anyone curious about how an AI chat assistant can simplify everyday tasks like scheduling.
+
+How It Works (Plain Language)
+• A Modern Website: When you open the site, you’ll see a clean, modern design with a headline area, details about a sample turf, and a chat section.
+• A Helpful Assistant: The assistant asks you simple questions—your name, phone number, date, and time—and then confirms the booking. If a time is already taken, it suggests alternatives.
+• Bookings Are Saved: Your bookings are saved in a small file inside the project folder. This means they stick around even if you close and reopen the website.
+• Instant Responses: Many questions can be answered right away (for example, “What’s available today?”). The assistant also follows a friendly, step‑by‑step process when you want to make a new booking.
+
+What’s Included on the Page
+• A welcoming banner (the “hero” section) with a call to action.
+• A section that showcases the sample turf, including price and key features.
+• A “My Bookings” area that shows recent confirmed bookings.
+• A chat section where you can talk to the assistant to book, cancel, or ask questions.
+
+The Sample Turf
+• Name: Green Valley Sports Arena
+• Location: Downtown, Sector 21
+• Price: Shown per hour (this demo uses a fixed rate)
+• Amenities: Examples include floodlights, changing rooms, parking, water station, and first‑aid kit
+• Hours: From early morning to late evening, in one‑hour slots
+• Rating: Shows a positive customer rating to illustrate social proof
+
+Design Choices (Explained Simply)
+• Clarity first: The page is built to be easy to skim and easy to act on.
+• Helpful visuals: Gentle animations and modern styling make the experience pleasant without getting in the way.
+• One place for everything: Browsing, booking, and managing bookings all live on a single page.
+• Guided flow: The assistant keeps you on track—no guesswork about what to do next.
+
+How the Assistant Helps You Book
+1) You say what you want in your own words (for example, “I want to book for tomorrow at 7 PM”).
+2) The assistant checks what details are missing and asks you to fill them in (name, phone number, date, and time).
+3) It checks whether the time slot is available.
+4) If it’s available, it confirms your booking and shows your booking ID.
+5) If it isn’t, it suggests other times you can choose from.
+
+Understanding Time Slots and Pricing
+• Time slots are one hour each (for example: 6:00, 7:00, 8:00, and so on).
+• The price is shown per hour. If you book more than one hour, the total price goes up accordingly.
+• If a time is already booked, you’ll see it marked as unavailable or the assistant will tell you it’s taken.
+
+Managing Your Bookings
+• Viewing: The “My Bookings” section shows recent confirmed bookings with basic details.
+• Cancelling: You can cancel a booking by providing the booking ID to the assistant. The status changes to “cancelled.”
+• Keeping a record: It’s a good idea to note or screenshot your booking ID at the time of confirmation.
+
+Assumptions and Limits (What This Demo Does and Doesn’t Do)
+• One sample turf is included to show how everything works. More can be added later.
+• Bookings are for hourly slots. Partial‑hour bookings aren’t part of this version.
+• Prices are fixed in this demo. Dynamic pricing or discount codes aren’t included.
+• There’s no online payment feature yet. This demo focuses on the booking flow.
+• There are no user accounts. Anyone can make a booking if they have the website open.
+
+Privacy and Where Your Data Lives
+• Your booking details (like your name, phone number, and the time you booked) are saved in a small file inside the project folder on the computer that runs the website.
+• This information is used only to show your bookings and check availability.
+• If you share the project with others or move it to another computer, bring that file along to keep your records.
+
+Reliability and What to Expect
+• If the website is open and running, bookings and cancellations will work as expected.
+• If the assistant ever mentions a service or model issue, try again after a moment. These issues are usually temporary.
+• If the same time slot is requested by more than one person at the same moment, the first confirmed request gets it.
+
+Accessibility and Devices
+• The page adapts to phones, tablets, and laptops.
+• Buttons are large enough to tap comfortably on mobile devices.
+• Text is designed to be readable with good color contrast.
+
+Step‑by‑Step Setup (No Code)
+1) Make sure your computer has a recent version of the software needed to run the website. If you don’t have it, install it using the default options provided by the installer.
+2) Put your private key for the assistant into a small file named “.env” in the project folder. This key lets the assistant talk and understand requests. Keep it private.
+3) Open the project folder on your computer.
+4) Install the tools the project needs. The list of tools is already provided in a file named “requirements.txt.” Use your usual method for adding these tools on your computer.
+5) Start the website from inside the project folder. Your computer will show a local address you can open in your web browser (it usually ends with a number like “:5000”).
+6) Open that address in your browser to begin using BookMyTurf.
+
+Tips for a Smooth First Run
+• Keep the project folder in a simple location (for example, your desktop) so it’s easy to find.
+• Close any other programs that might be using the same local address or port.
+• If the website is already open in another window, refresh that page after restarting the site.
+
+Using the Assistant: A Typical Conversation
+• Start: “I want to book the turf tomorrow evening.”
+• The assistant asks for your name and phone number if it doesn’t have them yet.
+• It then asks for the date and time if you haven’t given them already.
+• If the slot is available, it confirms and shows a booking ID (for example, a short code).
+• If not, it suggests other times that are open.
+
+Understanding Booking IDs
+• Every booking gets a unique ID so it’s easy to find and manage.
+• You’ll need this ID if you want to cancel later, so keep it handy.
+
+Troubleshooting (Quick Help)
+• The page won’t open: Make sure you started the website from the project folder. If it still won’t open, close your browser and try again.
+• The assistant mentions a model or service problem: This may be temporary. Try again in a minute. Also check that your private key in the “.env” file is correct.
+• A time is unavailable: Choose another time. Popular evening slots can go quickly.
+• I don’t see my booking: Refresh the page to load the most recent list. If needed, try restarting the website and check again.
+
+Frequently Asked Questions
+• Can I pay online? Not in this version. You’ll see the total price, but payment happens outside the website.
+• Can I book more than one hour? Yes—choose another time after the first hour, or tell the assistant how many hours you want.
+• Can I pick from multiple turfs? This demo focuses on a single sample turf. More can be added later.
+• Can I change my booking? You can cancel your current booking and make a new one for the time you prefer.
+• Where are my details stored? They’re saved in a small file inside the project folder, on the same computer that runs the website.
+
+Safety and Good Habits
+• Keep your private key (in the “.env” file) safe and never share it publicly.
+• Don’t post screenshots that reveal sensitive details like phone numbers.
+• If you share the project with others, explain that it’s a demo and not a full production system.
+
+What We Learned While Building This
+• A friendly assistant makes booking feel natural. People prefer typing a request in their own words instead of filling out long forms.
+• Clear steps matter. Asking for name, phone, date, and time in a sensible order reduces mistakes.
+• Simple storage works well for demos. A small file is enough to keep track of bookings without needing a complex database.
+• Good design helps adoption. Clean visuals, clear labels, and responsive layouts make a difference.
+
+Future Improvements
+• Multiple turfs and locations with filters and maps
+• Online payments and downloadable receipts
+• Email and text message confirmations and reminders
+• Personal accounts for saving contact details and viewing history
+• Calendar view for picking dates at a glance
+• Language options so people can chat in the language they prefer
+
+Glossary (Plain Definitions)
+• Booking: A confirmed reservation for a specific date and time.
+• Time slot: A one‑hour window you can reserve (for example, 7:00–8:00).
+• Booking ID: A short code used to find or cancel a booking.
+• Assistant: The chat helper that asks questions and guides you through the process.
+• Project folder: The main folder that contains all the website’s files.
+
+Sharing and Contact
+If you plan to share this demo with others, include your contact details below so people can reach you.
+• Name:
+• Email:
+• Phone:
+• Organization:
+
+Closing Note
+BookMyTurf is designed to be welcoming, fast, and easy. Use it to show how an AI chat assistant can simplify everyday tasks like making a reservation. If you expand it later—by adding more locations, payments, or accounts—you’ll already have a clear, friendly foundation.

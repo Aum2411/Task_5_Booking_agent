@@ -1,0 +1,46 @@
+{
+  "turfs": [
+    {
+      "id": "turf_001",
+      "name": "Green Valley Sports Arena",
+      "location": "Downtown, Sector 21, Main Street",
+      "description": "Premium artificial turf with floodlights, perfect for football, cricket, and other sports",
+      "amenities": [
+        "Floodlights",
+        "Changing Rooms",
+        "Parking",
+        "Water Facility",
+        "First Aid"
+      ],
+      "size": "100x60 feet",
+      "surface_type": "Artificial Grass",
+      "price_per_hour": 1500,
+      "available_hours": [
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00"
+      ],
+      "images": [
+        "turf1.jpg",
+        "turf2.jpg"
+      ],
+      "rating": 4.5,
+      "total_reviews": 128
+    }
+  ],
+  "bookings": []
+}
